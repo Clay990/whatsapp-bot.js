@@ -1,4 +1,6 @@
-# whatsapp.js Framework
+# whatsapp-bot.js
+
+[![npm version](https://img.shields.io/npm/v/whatsapp-bot.js.svg)](https://www.npmjs.com/package/whatsapp-bot.js)
 
 A high-level, `discord.py`-inspired framework for building WhatsApp bots easily and quickly. Built on top of `whatsapp-web.js`.
 
@@ -11,16 +13,16 @@ A high-level, `discord.py`-inspired framework for building WhatsApp bots easily 
 
 ## Installation
 
-*(Note: This is a local package for now, but soon you could publish it to npm!)*
+Install the package via npm:
 
 ```bash
-npm install whatsapp-web.js qrcode-terminal
+npm install whatsapp-bot.js qrcode-terminal
 ```
 
 ## Quick Start
 
 ```typescript
-import { Bot } from 'whatsapp';
+import { Bot } from 'whatsapp-bot.js';
 
 const bot = new Bot({ prefix: '!' });
 
