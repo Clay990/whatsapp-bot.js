@@ -4,6 +4,8 @@
 
 A high-level, `discord.py`-inspired framework for building WhatsApp bots easily and quickly. Built on top of `whatsapp-web.js`.
 
+> **⚠️ Disclaimer:** This framework uses the unofficial WhatsApp Web protocol. It is NOT the official Meta WhatsApp API. This framework is intended for personal assistants, hobby projects, home automation, and small community groups. **Do not use this for bulk marketing, spam, or massive enterprise scale.** If you automate too aggressively or send unsolicited messages, WhatsApp WILL ban your phone number without warning. Use at your own risk. We strongly recommend using a secondary phone number for development.
+
 ## Features
 - **Zero Meta API Setup**: Uses WhatsApp Web under the hood. No business registrations needed.
 - **Context Object (`ctx`)**: Just like `discord.py`, a rich context object makes replying, reacting, and fetching chat data trivial.
