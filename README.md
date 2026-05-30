@@ -46,3 +46,12 @@ bot.start();
 3. Open WhatsApp on your phone -> Linked Devices -> Link a Device.
 4. Scan the QR code.
 5. Send `!ping` in any chat (or to yourself) and watch the bot reply!
+
+## 🚀 Advanced Examples
+
+Check out the `example/` directory in the [GitHub Repository](https://github.com/Clay990/whatsapp-bot.js) for advanced, production-ready bot examples:
+
+- 🧠 **[ai-bot.ts](./example/ai-bot.ts)**: A fully conversational AI assistant powered by Google Gemini. Can summarize quoted messages and answer complex questions.
+- 🎵 **[media-bot.ts](./example/media-bot.ts)**: A media powerhouse that searches and downloads high-quality Audio from YouTube/Soundcloud, and downloads videos from Instagram Reels directly into the chat.
+- 🛡️ **[moderation-bot.ts](./example/moderation-bot.ts)**: A group management bot capable of `!kick`, `!everyone` (mass mentions), message purging, and automated welcome messages for new members.
+- 💰 **[economy-games-bot.ts](./example/economy-games-bot.ts)**: A feature-rich economy system with tracking (`!balance`, `!pay`, `!work`) and integrated casino games like `!coinflip` and a fully playable `!blackjack` module.
